@@ -14,8 +14,11 @@ The project integrates **soft circuitry** with traditional Dong textile crafts, 
 - **Adafruit_NeoPixel.h** (for controlling the LED strips) 
 - **SoftwareSerial.h** (for communication with the MP3 module)
 
-## Code Modules 
+## Project Visuals | 项目视觉
+[Prayer of Wind and Bloom.pdf](https://github.com/user-attachments/files/21963568/Prayer.of.Wind.and.Bloom.pdf)
 
+## Code Modules 
+<img width="2560" height="1280" alt="coding" src="https://github.com/user-attachments/assets/bdbe103a-aa9b-4454-a4c8-b539902d6076" />
 ### 1. Airflow Sensor Reader 
 **Function:** Reads the digital signal from the airflow sensor.
 int airflow=0;
@@ -108,9 +111,7 @@ void clearAll() {
 ### 3. Audio Player Control 
 **Function:** Plays/stops Dong Grand Songs via touch sensor.
 #include <SoftwareSerial.h>
-
 SoftwareSerial Serial1(10, 11);  // RX, TX
-
 #define TOUCH_PIN A1
 
 bool lastTouchState = false;
