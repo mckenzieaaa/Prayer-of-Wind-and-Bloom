@@ -14,9 +14,6 @@ The project integrates **soft circuitry** with traditional Dong textile crafts, 
 - **Adafruit_NeoPixel.h** (for controlling the LED strips) 
 - **SoftwareSerial.h** (for communication with the MP3 module)
 
-## Project Visuals | 项目视觉
-[Prayer of Wind and Bloom.pdf](https://github.com/user-attachments/files/21963568/Prayer.of.Wind.and.Bloom.pdf)
-
 ## Code Modules 
 <img width="2560" height="1280" alt="coding" src="https://github.com/user-attachments/assets/bdbe103a-aa9b-4454-a4c8-b539902d6076" />
 ### 1. Airflow Sensor Reader 
